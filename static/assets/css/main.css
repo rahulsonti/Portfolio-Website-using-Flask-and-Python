@@ -1,11 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -88,7 +83,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #b7714b;
+		color: #3182bd;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -107,12 +102,12 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #b7714b;
+		color: #3182bd;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #b7714b;
+		color: #3182bd;
 		line-height: 1.5em;
 	}
 
@@ -122,7 +117,7 @@ input, select, textarea {
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			color: #b7714b;
+			color: #3182bd;
 		}
 
 	h2 {
@@ -131,11 +126,11 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			color: #b7714b;
+			color: #3182bd;
 		}
 
 			h2.alt strong {
-				color: #b7714b;
+				color: #3182bd;
 			}
 
 	h3 {
@@ -2218,12 +2213,12 @@ input, select, textarea {
 		}
 
 			#main > section.dark {
-				color: #ffff;
 				color: #43a2ca;
+				color: #ffff;
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					color: #636363;
+					color: #43a2ca;
 				}
 
 				#main > section.dark strong {
