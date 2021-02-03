@@ -31,3 +31,6 @@ def write_data(user_data):
     with open('user_records.csv', 'a', newline='') as csvfile:
         db_writer = csv.writer(csvfile, delimiter = '|', quotechar = ' ', quoting = csv.QUOTE_MINIMAL)
         db_writer.writerow([name, email, message, time1])
+        
+if __name__ == "__main__":
+    app.run(debug = 'True')
