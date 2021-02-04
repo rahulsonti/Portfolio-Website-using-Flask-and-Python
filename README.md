@@ -1,7 +1,7 @@
 # Portfolio-Website-using-Flask-and-Python
-1. Create a virtual-environment so that it'll be easier for you when you finally build thew website and you awant to deploy it.
+1. Create a virtual-environment so that it'll be easier for you when you finally build the website and you awant to deploy it.
 2. Install all the necessary libraries for your website. In my case, the libraries I used are: * Flask, * Gunicorn, * csv(just for my convenience), * datetime(just for my convenience)
-3. Set-up the virtual environment and change it to development mode using "set FLAS_ENV=development" because the changes need to reflect as you are working. It'll make our life easier.;)
+3. Set-up the virtual environment and change it to development mode using "set FLASK_ENV=development" because the changes need to reflect as you are working. It'll make our life easier.;)
 4. In my case, I downloaded the template for my website from https://html5up.net/ which offers free open source templates for your website. Try it!
 5. Create a templates folder in your project directory (**outside the virtualenv folder**) and place all the html files from your templates in this. This is because Flask looks for templates folder by default and if doesn't find it, you'll be thriwn with an error.
 6. Also, you need a static folder(this is default too, just like templates) where all your css, js, images, and all other files need to be placed. If your template doesn't have it, create a static folder and places all the other files in static.
